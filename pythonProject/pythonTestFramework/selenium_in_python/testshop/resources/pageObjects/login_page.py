@@ -1,0 +1,5 @@
+login_page_URL = "https://testshop.polteq-testing.com/en/login?back=my-account"
+validate_successful_login = "//*[@id='order-slips-link']"
+password_textfield = "//label[@class='col-md-3 form-control-label required']/..//following-sibling::input[@name='password']"
+email_textfield = "//label[@class='col-md-3 form-control-label required']/..//following-sibling::input[@name='email']"
+sign_out_button = "//a[@class='logout hidden-sm-down']"

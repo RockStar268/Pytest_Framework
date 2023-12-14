@@ -1,0 +1,1 @@
+proceed_checkout_button = "//a[@class='btn btn-primary']"
