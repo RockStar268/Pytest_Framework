@@ -53,7 +53,8 @@ class CreateCustomer:
 
         commons.input_text(self.first_name_input, first_name)
         commons.input_text(self.last_name_input, last_name)
-        commons.input_text(self.dob_input, dob)
+        dob_converted= Conversion.convert_date(dob)
+        commons.input_text(self.dob_input, dob_converted)
 
         # check mandatory checkboxes
         commons.click_button(self.privacy_checkbox)

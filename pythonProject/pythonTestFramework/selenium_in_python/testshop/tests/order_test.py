@@ -42,7 +42,7 @@ def test_order(driver):
     email = str(uuid.uuid4())[:10]
 
     create_customer.create_account(page="Order", title="male", first_name="Test", last_name="Account", email=f"{email}@hotmail.com",
-                                   dob="5/25/2000",
+                                   dob="25-2-2000",
                                    password="TEST_TEST")
 
     # ACT fill in address details

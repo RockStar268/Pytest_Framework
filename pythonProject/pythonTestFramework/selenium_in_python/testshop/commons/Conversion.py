@@ -1,13 +1,9 @@
 from datetime import datetime
-
+from dateutil.parser import parse
 
 class Conversion:
-    def date_of_birth(self, date_of_birth):
-        try:
-            # Parse the input date_of_birth string into a datetime object
-            dob_date = datetime.strptime(date_of_birth, '%m/%d/%Y')
-            return dob_date
-        except ValueError:
-            # If there is a ValueError, the date format is incorrect
-            print("Invalid date format. Please use the format 'YYYY-MM-DD'.")
-            return None
+    def convert_date(input_date):
+        # parse date
+        d = parse(input_date)
+        # reformat date
+        return d.strftime('%m/%d/%Y')
