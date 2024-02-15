@@ -1,6 +1,7 @@
 from datetime import datetime
 from dateutil.parser import parse
 
+
 class Conversion:
     def convert_date(input_date):
         # parse date

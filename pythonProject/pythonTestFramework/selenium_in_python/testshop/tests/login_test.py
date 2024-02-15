@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
-from pythonTestFramework.selenium_in_python.testshop.pages import HomePage
-from pythonTestFramework.selenium_in_python.testshop.pages.LoginPage import LoginPage
-from pythonTestFramework.selenium_in_python.testshop.resources.pageObjects.login_page import login_page_URL, validate_successful_login
+from pythonProject.pythonTestFramework.selenium_in_python.testshop.pages import HomePage
+from pythonProject.pythonTestFramework.selenium_in_python.testshop.pages.LoginPage import LoginPage
+from pythonProject.pythonTestFramework.selenium_in_python.testshop.resources.pageObjects.login_page import login_page_URL, validate_successful_login
 
 from pythonProject.pythonTestFramework.selenium_in_python.testshop.pages import Validations
 
